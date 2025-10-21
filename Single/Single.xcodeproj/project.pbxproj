@@ -7,28 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28BBA85E2EA74D37001321A8 /* FanaiXiaoBgaeu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BBA85D2EA74D37001321A8 /* FanaiXiaoBgaeu.xcframework */; };
+		1CF92EF9E3DF4616B900D395 /* LeikjaSynasafnslikan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD25009097E4E6FABE9C067 /* LeikjaSynasafnslikan.swift */; };
+		28BBA8CE2EA7678D001321A8 /* FanaiXiaoBgaeu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BBA8CD2EA7678D001321A8 /* FanaiXiaoBgaeu.xcframework */; };
+		610247B7C92741EEAF60499D /* SpjaldSynasafnslikan.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED659608E4704D4585A5E4B0 /* SpjaldSynasafnslikan.swift */; };
 		797CC81A759424AE20E71001 /* Pods_Single.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6637EDE37238BB77515C7C /* Pods_Single.framework */; };
+		9AE7348F9D554BF2AA4CA55E /* MVVMLeikjaStjornandi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C633649E0324226B66E91FB /* MVVMLeikjaStjornandi.swift */; };
+		AF73530FF5E0416C823E45B5 /* GagnaTengingKerfis.swift in Sources */ = {isa = PBXBuildFile; fileRef = A226E15693B24BF5B954008D /* GagnaTengingKerfis.swift */; };
 		FEE640142EA678F500E4512A /* Single.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEE6400E2EA678F500E4512A /* Single.xcdatamodeld */; };
 		FEE640162EA678F500E4512A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE640072EA678F500E4512A /* Assets.xcassets */; };
 		FEE640182EA678F500E4512A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE6400A2EA678F500E4512A /* LaunchScreen.storyboard */; };
 		FEE640192EA678F500E4512A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE6400C2EA678F500E4512A /* Main.storyboard */; };
-		FEE640232EA67E9100E4512A /* Game_JiLuZheVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE6401F2EA67E9100E4512A /* Game_JiLuZheVC.swift */; };
-		FEE640242EA67E9100E4512A /* PlayGame_QuickVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE640202EA67E9100E4512A /* PlayGame_QuickVC.swift */; };
-		FEE640252EA67E9100E4512A /* Game_KuCard_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE6401D2EA67E9100E4512A /* Game_KuCard_View.swift */; };
-		FEE640262EA67E9100E4512A /* Wam_Ka_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE6401B2EA67E9100E4512A /* Wam_Ka_Cell.swift */; };
+		FEE640232EA67E9100E4512A /* SkraningaSkodaraStjori.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE6401F2EA67E9100E4512A /* SkraningaSkodaraStjori.swift */; };
+		FEE640242EA67E9100E4512A /* HradaleikirStjornandi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE640202EA67E9100E4512A /* HradaleikirStjornandi.swift */; };
+		FEE640252EA67E9100E4512A /* SpjaldSkodunarSyn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE6401D2EA67E9100E4512A /* SpjaldSkodunarSyn.swift */; };
+		FEE640262EA67E9100E4512A /* LeikjaReikull.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE6401B2EA67E9100E4512A /* LeikjaReikull.swift */; };
 		FEE640272EA67E9100E4512A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE640212EA67E9100E4512A /* SceneDelegate.swift */; };
 		FEE640282EA67E9100E4512A /* Wam_Ka_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE6401C2EA67E9100E4512A /* Wam_Ka_Model.swift */; };
 		FEE640292EA67E9100E4512A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE6401A2EA67E9100E4512A /* AppDelegate.swift */; };
-		FEE6402A2EA67E9100E4512A /* Wan_Grid_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE6401E2EA67E9100E4512A /* Wan_Grid_View.swift */; };
+		FEE6402A2EA67E9100E4512A /* NetraSkodunSyn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE6401E2EA67E9100E4512A /* NetraSkodunSyn.swift */; };
 		FEE6402B2EA67E9100E4512A /* SingleMJModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE640222EA67E9100E4512A /* SingleMJModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AD25009097E4E6FABE9C067 /* LeikjaSynasafnslikan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeikjaSynasafnslikan.swift; sourceTree = "<group>"; };
 		1B68FF2BB71BE87F7B237AFF /* Pods-Single.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Single.debug.xcconfig"; path = "Target Support Files/Pods-Single/Pods-Single.debug.xcconfig"; sourceTree = "<group>"; };
-		28BBA85D2EA74D37001321A8 /* FanaiXiaoBgaeu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FanaiXiaoBgaeu.xcframework; sourceTree = "<group>"; };
+		28BBA8CD2EA7678D001321A8 /* FanaiXiaoBgaeu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FanaiXiaoBgaeu.xcframework; sourceTree = "<group>"; };
 		6A6637EDE37238BB77515C7C /* Pods_Single.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Single.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C633649E0324226B66E91FB /* MVVMLeikjaStjornandi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMLeikjaStjornandi.swift; sourceTree = "<group>"; };
 		7DE8D36C81B567DE6CEEC469 /* Pods-Single.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Single.release.xcconfig"; path = "Target Support Files/Pods-Single/Pods-Single.release.xcconfig"; sourceTree = "<group>"; };
+		A226E15693B24BF5B954008D /* GagnaTengingKerfis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GagnaTengingKerfis.swift; sourceTree = "<group>"; };
+		ED659608E4704D4585A5E4B0 /* SpjaldSynasafnslikan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpjaldSynasafnslikan.swift; sourceTree = "<group>"; };
 		FE7764AC2EA3A9D9002552DE /* Single.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Single.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE640072EA678F500E4512A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEE640082EA678F500E4512A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,12 +44,12 @@
 		FEE6400B2EA678F500E4512A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FEE640112EA678F500E4512A /* Single.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Single.xcdatamodel; sourceTree = "<group>"; };
 		FEE6401A2EA67E9100E4512A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FEE6401B2EA67E9100E4512A /* Wam_Ka_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wam_Ka_Cell.swift; sourceTree = "<group>"; };
+		FEE6401B2EA67E9100E4512A /* LeikjaReikull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeikjaReikull.swift; sourceTree = "<group>"; };
 		FEE6401C2EA67E9100E4512A /* Wam_Ka_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wam_Ka_Model.swift; sourceTree = "<group>"; };
-		FEE6401D2EA67E9100E4512A /* Game_KuCard_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_KuCard_View.swift; sourceTree = "<group>"; };
-		FEE6401E2EA67E9100E4512A /* Wan_Grid_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wan_Grid_View.swift; sourceTree = "<group>"; };
-		FEE6401F2EA67E9100E4512A /* Game_JiLuZheVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_JiLuZheVC.swift; sourceTree = "<group>"; };
-		FEE640202EA67E9100E4512A /* PlayGame_QuickVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayGame_QuickVC.swift; sourceTree = "<group>"; };
+		FEE6401D2EA67E9100E4512A /* SpjaldSkodunarSyn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpjaldSkodunarSyn.swift; sourceTree = "<group>"; };
+		FEE6401E2EA67E9100E4512A /* NetraSkodunSyn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetraSkodunSyn.swift; sourceTree = "<group>"; };
+		FEE6401F2EA67E9100E4512A /* SkraningaSkodaraStjori.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkraningaSkodaraStjori.swift; sourceTree = "<group>"; };
+		FEE640202EA67E9100E4512A /* HradaleikirStjornandi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HradaleikirStjornandi.swift; sourceTree = "<group>"; };
 		FEE640212EA67E9100E4512A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FEE640222EA67E9100E4512A /* SingleMJModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleMJModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,13 +60,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				797CC81A759424AE20E71001 /* Pods_Single.framework in Frameworks */,
-				28BBA85E2EA74D37001321A8 /* FanaiXiaoBgaeu.xcframework in Frameworks */,
+				28BBA8CE2EA7678D001321A8 /* FanaiXiaoBgaeu.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8865136204F3414699384868 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A226E15693B24BF5B954008D /* GagnaTengingKerfis.swift */,
+				ED659608E4704D4585A5E4B0 /* SpjaldSynasafnslikan.swift */,
+				1AD25009097E4E6FABE9C067 /* LeikjaSynasafnslikan.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		BD2CE166E79378F80C12A6B3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,11 +117,12 @@
 			children = (
 				FEE6401A2EA67E9100E4512A /* AppDelegate.swift */,
 				FEE640B02EA69CAC00E4512A /* SingleModel */,
+				8865136204F3414699384868 /* ViewModels */,
 				FEE640B12EA69CB700E4512A /* WanView */,
 				FEE640212EA67E9100E4512A /* SceneDelegate.swift */,
 				FEE640072EA678F500E4512A /* Assets.xcassets */,
+				28BBA8CD2EA7678D001321A8 /* FanaiXiaoBgaeu.xcframework */,
 				FEE640082EA678F500E4512A /* Info.plist */,
-				28BBA85D2EA74D37001321A8 /* FanaiXiaoBgaeu.xcframework */,
 				FEE6400A2EA678F500E4512A /* LaunchScreen.storyboard */,
 				FEE6400C2EA678F500E4512A /* Main.storyboard */,
 				FEE6400E2EA678F500E4512A /* Single.xcdatamodeld */,
@@ -123,9 +142,9 @@
 		FEE640B12EA69CB700E4512A /* WanView */ = {
 			isa = PBXGroup;
 			children = (
-				FEE6401D2EA67E9100E4512A /* Game_KuCard_View.swift */,
-				FEE6401B2EA67E9100E4512A /* Wam_Ka_Cell.swift */,
-				FEE6401E2EA67E9100E4512A /* Wan_Grid_View.swift */,
+				FEE6401D2EA67E9100E4512A /* SpjaldSkodunarSyn.swift */,
+				FEE6401B2EA67E9100E4512A /* LeikjaReikull.swift */,
+				FEE6401E2EA67E9100E4512A /* NetraSkodunSyn.swift */,
 				FEE640B22EA69CBF00E4512A /* PlayVC */,
 			);
 			path = WanView;
@@ -134,8 +153,9 @@
 		FEE640B22EA69CBF00E4512A /* PlayVC */ = {
 			isa = PBXGroup;
 			children = (
-				FEE6401F2EA67E9100E4512A /* Game_JiLuZheVC.swift */,
-				FEE640202EA67E9100E4512A /* PlayGame_QuickVC.swift */,
+				FEE6401F2EA67E9100E4512A /* SkraningaSkodaraStjori.swift */,
+				FEE640202EA67E9100E4512A /* HradaleikirStjornandi.swift */,
+				7C633649E0324226B66E91FB /* MVVMLeikjaStjornandi.swift */,
 			);
 			path = PlayVC;
 			sourceTree = "<group>";
@@ -261,16 +281,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEE640232EA67E9100E4512A /* Game_JiLuZheVC.swift in Sources */,
-				FEE640242EA67E9100E4512A /* PlayGame_QuickVC.swift in Sources */,
-				FEE640252EA67E9100E4512A /* Game_KuCard_View.swift in Sources */,
-				FEE640262EA67E9100E4512A /* Wam_Ka_Cell.swift in Sources */,
+				FEE640232EA67E9100E4512A /* SkraningaSkodaraStjori.swift in Sources */,
+				FEE640242EA67E9100E4512A /* HradaleikirStjornandi.swift in Sources */,
+				FEE640252EA67E9100E4512A /* SpjaldSkodunarSyn.swift in Sources */,
+				FEE640262EA67E9100E4512A /* LeikjaReikull.swift in Sources */,
 				FEE640272EA67E9100E4512A /* SceneDelegate.swift in Sources */,
 				FEE640282EA67E9100E4512A /* Wam_Ka_Model.swift in Sources */,
 				FEE640292EA67E9100E4512A /* AppDelegate.swift in Sources */,
-				FEE6402A2EA67E9100E4512A /* Wan_Grid_View.swift in Sources */,
+				FEE6402A2EA67E9100E4512A /* NetraSkodunSyn.swift in Sources */,
 				FEE6402B2EA67E9100E4512A /* SingleMJModel.swift in Sources */,
 				FEE640142EA678F500E4512A /* Single.xcdatamodeld in Sources */,
+				AF73530FF5E0416C823E45B5 /* GagnaTengingKerfis.swift in Sources */,
+				610247B7C92741EEAF60499D /* SpjaldSynasafnslikan.swift in Sources */,
+				1CF92EF9E3DF4616B900D395 /* LeikjaSynasafnslikan.swift in Sources */,
+				9AE7348F9D554BF2AA4CA55E /* MVVMLeikjaStjornandi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,11 +324,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1B68FF2BB71BE87F7B237AFF /* Pods-Single.debug.xcconfig */;
 			buildSettings = {
+				ALTERNATIVE_DISTRIBUTION_WEB = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Single/Info.plist;
@@ -338,11 +366,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7DE8D36C81B567DE6CEEC469 /* Pods-Single.release.xcconfig */;
 			buildSettings = {
+				ALTERNATIVE_DISTRIBUTION_WEB = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Single/Info.plist;

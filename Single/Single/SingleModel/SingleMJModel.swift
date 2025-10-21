@@ -1,52 +1,49 @@
 
 import UIKit
 
-struct SingleMJModel {
-    var sing_image: UIImage //图片
-    var sing_title: String //标题即麻将的值
-    var sing_category: String // 种类
-    
+// Flísalíkan fyrir mahjong leikinn
+struct FlisaGogn {
+    var myndefni: String // Breytt úr UIImage í String (nafn myndar)
+    var titillTala: String
+    var flokkurTegund: String
 }
 
 
-let categoryTong = "categoryTong"
-let categoryTiao = "categoryTiao"
-let categoryWan = "categoryWan"
+let flokkTong = "flokkTong"
+let flokkTiao = "flokkTiao"
+let flokkWan = "flokkWan"
 
 
+// Tong flokkur - 9 mismunandi flísar
+let flisaTong1 = FlisaGogn(myndefni: "singTong 1", titillTala: "1", flokkurTegund: flokkTong)
+let flisaTong2 = FlisaGogn(myndefni: "singTong 2", titillTala: "2", flokkurTegund: flokkTong)
+let flisaTong3 = FlisaGogn(myndefni: "singTong 3", titillTala: "3", flokkurTegund: flokkTong)
+let flisaTong4 = FlisaGogn(myndefni: "singTong 4", titillTala: "4", flokkurTegund: flokkTong)
+let flisaTong5 = FlisaGogn(myndefni: "singTong 5", titillTala: "5", flokkurTegund: flokkTong)
+let flisaTong6 = FlisaGogn(myndefni: "singTong 6", titillTala: "6", flokkurTegund: flokkTong)
+let flisaTong7 = FlisaGogn(myndefni: "singTong 7", titillTala: "7", flokkurTegund: flokkTong)
+let flisaTong8 = FlisaGogn(myndefni: "singTong 8", titillTala: "8", flokkurTegund: flokkTong)
+let flisaTong9 = FlisaGogn(myndefni: "singTong 9", titillTala: "9", flokkurTegund: flokkTong)
 
-//第一种
-let singleMJ1Tong = SingleMJModel(sing_image: UIImage(named: "singTong 1")!, sing_title: "1", sing_category: categoryTong)
-let singleMJ2Tong = SingleMJModel(sing_image: UIImage(named: "singTong 2")!, sing_title: "2", sing_category: categoryTong)
-let singleMJ3Tong = SingleMJModel(sing_image: UIImage(named: "singTong 3")!, sing_title: "3", sing_category: categoryTong)
-let singleMJ4Tong = SingleMJModel(sing_image: UIImage(named: "singTong 4")!, sing_title: "4", sing_category: categoryTong)
-let singleMJ5Tong = SingleMJModel(sing_image: UIImage(named: "singTong 5")!, sing_title: "5", sing_category: categoryTong)
-let singleMJ6Tong = SingleMJModel(sing_image: UIImage(named: "singTong 6")!, sing_title: "6", sing_category: categoryTong)
-let singleMJ7Tong = SingleMJModel(sing_image: UIImage(named: "singTong 7")!, sing_title: "7", sing_category: categoryTong)
-let singleMJ8Tong = SingleMJModel(sing_image: UIImage(named: "singTong 8")!, sing_title: "8", sing_category: categoryTong)
-let singleMJ9Tong = SingleMJModel(sing_image: UIImage(named: "singTong 9")!, sing_title: "9", sing_category: categoryTong)
+// Tiao flokkur - 9 mismunandi flísar
+let flisaTiao1 = FlisaGogn(myndefni: "singTiao 1", titillTala: "1", flokkurTegund: flokkTiao)
+let flisaTiao2 = FlisaGogn(myndefni: "singTiao 2", titillTala: "2", flokkurTegund: flokkTiao)
+let flisaTiao3 = FlisaGogn(myndefni: "singTiao 3", titillTala: "3", flokkurTegund: flokkTiao)
+let flisaTiao4 = FlisaGogn(myndefni: "singTiao 4", titillTala: "4", flokkurTegund: flokkTiao)
+let flisaTiao5 = FlisaGogn(myndefni: "singTiao 5", titillTala: "5", flokkurTegund: flokkTiao)
+let flisaTiao6 = FlisaGogn(myndefni: "singTiao 6", titillTala: "6", flokkurTegund: flokkTiao)
+let flisaTiao7 = FlisaGogn(myndefni: "singTiao 7", titillTala: "7", flokkurTegund: flokkTiao)
+let flisaTiao8 = FlisaGogn(myndefni: "singTiao 8", titillTala: "8", flokkurTegund: flokkTiao)
+let flisaTiao9 = FlisaGogn(myndefni: "singTiao 9", titillTala: "9", flokkurTegund: flokkTiao)
 
-//第二种
-
-let singleMJ1Tiao = SingleMJModel(sing_image: UIImage(named: "singTiao 1")!, sing_title: "1", sing_category: categoryTiao)
-let singleMJ2Tiao = SingleMJModel(sing_image: UIImage(named: "singTiao 2")!, sing_title: "2", sing_category: categoryTiao)
-let singleMJ3Tiao = SingleMJModel(sing_image: UIImage(named: "singTiao 3")!, sing_title: "3", sing_category: categoryTiao)
-let singleMJ4Tiao = SingleMJModel(sing_image: UIImage(named: "singTiao 4")!, sing_title: "4", sing_category: categoryTiao)
-let singleMJ5Tiao = SingleMJModel(sing_image: UIImage(named: "singTiao 5")!, sing_title: "5", sing_category: categoryTiao)
-let singleMJ6Tiao = SingleMJModel(sing_image: UIImage(named: "singTiao 6")!, sing_title: "6", sing_category: categoryTiao)
-let singleMJ7Tiao = SingleMJModel(sing_image: UIImage(named: "singTiao 7")!, sing_title: "7", sing_category: categoryTiao)
-let singleMJ8Tiao = SingleMJModel(sing_image: UIImage(named: "singTiao 8")!, sing_title: "8", sing_category: categoryTiao)
-let singleMJ9Tiao = SingleMJModel(sing_image: UIImage(named: "singTiao 9")!, sing_title: "9", sing_category: categoryTiao)
-
-//第三种
-let singleMJ1Wan = SingleMJModel(sing_image: UIImage(named: "singWan 1")!, sing_title: "1", sing_category: categoryWan)
-let singleMJ2Wan = SingleMJModel(sing_image: UIImage(named: "singWan 2")!, sing_title: "2", sing_category: categoryWan)
-let singleMJ3Wan = SingleMJModel(sing_image: UIImage(named: "singWan 3")!, sing_title: "3", sing_category: categoryWan)
-let singleMJ4Wan = SingleMJModel(sing_image: UIImage(named: "singWan 4")!, sing_title: "4", sing_category: categoryWan)
-let singleMJ5Wan = SingleMJModel(sing_image: UIImage(named: "singWan 5")!, sing_title: "5", sing_category: categoryWan)
-let singleMJ6Wan = SingleMJModel(sing_image: UIImage(named: "singWan 6")!, sing_title: "6", sing_category: categoryWan)
-let singleMJ7Wan = SingleMJModel(sing_image: UIImage(named: "singWan 7")!, sing_title: "7", sing_category: categoryWan)
-let singleMJ8Wan = SingleMJModel(sing_image: UIImage(named: "singWan 8")!, sing_title: "8", sing_category: categoryWan)
-let singleMJ9Wan = SingleMJModel(sing_image: UIImage(named: "singWan 9")!, sing_title: "9", sing_category: categoryWan)
-
+// Wan flokkur - 9 mismunandi flísar
+let flisaWan1 = FlisaGogn(myndefni: "singWan 1", titillTala: "1", flokkurTegund: flokkWan)
+let flisaWan2 = FlisaGogn(myndefni: "singWan 2", titillTala: "2", flokkurTegund: flokkWan)
+let flisaWan3 = FlisaGogn(myndefni: "singWan 3", titillTala: "3", flokkurTegund: flokkWan)
+let flisaWan4 = FlisaGogn(myndefni: "singWan 4", titillTala: "4", flokkurTegund: flokkWan)
+let flisaWan5 = FlisaGogn(myndefni: "singWan 5", titillTala: "5", flokkurTegund: flokkWan)
+let flisaWan6 = FlisaGogn(myndefni: "singWan 6", titillTala: "6", flokkurTegund: flokkWan)
+let flisaWan7 = FlisaGogn(myndefni: "singWan 7", titillTala: "7", flokkurTegund: flokkWan)
+let flisaWan8 = FlisaGogn(myndefni: "singWan 8", titillTala: "8", flokkurTegund: flokkWan)
+let flisaWan9 = FlisaGogn(myndefni: "singWan 9", titillTala: "9", flokkurTegund: flokkWan)
 
